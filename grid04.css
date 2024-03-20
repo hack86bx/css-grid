@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+#galerie {
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    border: 3px solid black;
+
+    display: grid;
+    grid-template-rows: repeat(3,130px);
+    grid-template-columns: repeat(3,150px);
+
+  justify-content: center;
+}
